@@ -23,7 +23,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Seleccionar el rol del Perro-lobo solo en la primera noche
-        System.out.println("Perro-lobo, ¿deseas ser lobo o aldeano? (lobo/aldeano)");
+        System.out.println("Perro-lobo, ¿deseas ser loo o aldeano? (lobo/aldeano)");
         String decision = scanner.next();
         if (decision.equalsIgnoreCase("lobo")) {
             roles[6] = "Lobo";
