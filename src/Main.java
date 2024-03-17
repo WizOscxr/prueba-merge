@@ -18,7 +18,7 @@ public class Main {
 
         boolean lobosVivos = true;
         boolean aldeanosVivos = true;
-        boolean perroLoboSeleccionado = false;
+        boolean perroLoboSeleccionad = false;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -185,7 +185,6 @@ public class Main {
     public static void eliminarJugador(String[] jugadores, String[] roles, int[] ids, int indice) {
         System.out.println(jugadores[indice] + " ha sido eliminado.");
         roles[indice] = "Eliminado";
-        // Desactivar al jugador eliminado
         ids[indice] = -1;
     }
 }
