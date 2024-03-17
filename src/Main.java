@@ -18,7 +18,7 @@ public class Main {
 
         boolean lobosVivos = true;
         boolean aldeanosVivos = true;
-        boolean perroLoboSeleccionad = false;
+        boolean perroLoboSeleccionado = false;
 
         Scanner scanner = new Scanner(System.in);
 
